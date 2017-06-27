@@ -3,7 +3,7 @@ $LOAD_PATH.unshift 'lib'
 require 'street_address'
 
 Gem::Specification.new do |s|
-  s.name = "StreetAddress"
+  s.name = "street_address"
   s.licenses = ['MIT']
   s.version = StreetAddress::US::VERSION
   s.date = Time.now.strftime('%Y-%m-%d')
